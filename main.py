@@ -52,7 +52,7 @@ class MainHandler(webapp2.RequestHandler):
         signup_form = """
             <form method="POST">
                 <label for="username">Username:</label>
-                <input type="text" name="username" id="username" value="{}"><br>
+                <input type="text" name="username" id="username" value="{}" required><br>
                 <label for="password">Password:</label>
                 <input type="password" name="password" id="password" value=""><br>
                 <label for="verify">Verify Password:</label>
